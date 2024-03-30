@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Hey👋, I'm SEGHIR Abderrazak. A passionate Mobile and Web Developer based in France 📍.",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
+    "https://drive.google.com/file/d/1DssDaLKAOiWwxSjwe3hMYWNfm9_a--cK/view?usp=drive_link",
   portfolio_repository: "https://github.com/abderrzakseghir/Prortfolio",
   githubProfile: "https://github.com/abderrzakseghir/",
 };
