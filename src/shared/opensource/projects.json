@@ -24,6 +24,9 @@
           "name": "Dockerfile",
           "iconifyClass": "simple-icons:docker"
         }
+      ],
+      "images": [
+        "pwa.png"
       ]
     },
     {
@@ -38,6 +41,9 @@
           "name": "Python",
           "iconifyClass": "logos-python"
         }
+      ],
+      "images": [
+        "pwa.png"
       ]
     },
     {
@@ -64,6 +70,9 @@
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
         }
+      ],
+      "images": [
+        "pwa.png"
       ]
     },
     {
@@ -78,6 +87,9 @@
           "name": "Python",
           "iconifyClass": "logos-python"
         }
+      ],
+      "images": [
+        "pwa.png"
       ]
     },
     {
@@ -92,6 +104,9 @@
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
         }
+      ],
+      "images": [
+        "pwa.png"
       ]
     },
     {
@@ -110,6 +125,9 @@
           "name": "CSS",
           "iconifyClass": "logos-css-3"
         }
+      ],
+      "images": [
+        "pwa.png"
       ]
     }
   ]
