@@ -3,6 +3,7 @@ import ProjectLanguages from "../../components/projectLanguages/ProjectLanguages
 import "./GithubRepoCard.css";
 import { Fade } from "react-reveal";
 import Carousel from "./Carousel"; // Assurez-vous de spécifier le chemin correct vers le composant Carousel
+import imagenbr1 from "../../assests/images/apple-mockup-generator-new.jpg";
 
 export default function GithubRepoCard({ repo, theme }) {
   const [showOverlay, setShowOverlay] = useState(false); // Define showOverlay state
@@ -47,15 +48,22 @@ export default function GithubRepoCard({ repo, theme }) {
               logos={repo.languages}
             />
           </div>
+          <div className="repo-image">
+            <img
+              src={repo.Imagesrc ? repo.Imagesrc : imagenbr1}
+              alt={`Image for ${repo.name}`}
+              className="repo-image"
+            />
+          </div>
         </div>
       </Fade>
-      {showOverlay && (
+      {/* {showOverlay && (
         <div className="overlay" onClick={toggleOverlay}>
           <div className="overlay-content" onClick={(e) => e.stopPropagation()}>
             <Carousel images={repo.images} />
           </div>
         </div>
-      )}
+      )} */}
     </div>
   );
 }

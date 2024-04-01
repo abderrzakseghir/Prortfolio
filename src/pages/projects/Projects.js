@@ -15,10 +15,28 @@ import {
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
+import ProjectDetails from "../../components/ProjectDetails/ProjectDetails.js";
 
 class Projects extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      selectedProject: null,
+    };
+  }
+
+  openModal = (project) => {
+    this.setState({ selectedProject: project });
+  };
+
+  closeModal = () => {
+    this.setState({ selectedProject: null });
+  };
+
   render() {
+    const { selectedProject } = this.state;
     const theme = this.props.theme;
+
     return (
       <div className="projects-main">
         <Header theme={theme} />
@@ -50,9 +68,15 @@ class Projects extends Component {
           </Fade>
         </div>
         <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
-          })}
+          {ProjectsData.data.map((repo, index) => (
+            <div
+              key={index}
+              onClick={() => this.openModal(repo)}
+              className="repo-cards-display"
+            >
+              <GithubRepoCard repo={repo} theme={theme} />
+            </div>
+          ))}
         </div>
         <Button
           text={"More Projects"}
@@ -91,6 +115,10 @@ class Projects extends Component {
             return <PublicationCard pub={pub} theme={theme} />;
           })}
         </div>
+
+        {selectedProject && (
+          <ProjectDetails project={selectedProject} onClose={this.closeModal} />
+        )}
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />

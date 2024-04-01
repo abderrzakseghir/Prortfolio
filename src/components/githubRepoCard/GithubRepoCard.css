@@ -92,6 +92,11 @@
   margin-left: auto;
   margin-right: 0px;
 }
+.repo-image {
+  padding-top: 10px;
+  height: 40%;
+  width: 100%;
+}
 
 @media (max-width: 1200px) {
   .repo-card-div {

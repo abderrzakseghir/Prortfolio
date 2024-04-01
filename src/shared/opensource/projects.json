@@ -25,8 +25,9 @@
           "iconifyClass": "simple-icons:docker"
         }
       ],
+      "imagesrc": "../../assests/images/apple-mockup-generator-new.jpg",
       "images": [
-        "pwa.png"
+        "../../assests/images/apple-mockup-generator-new.jpg"
       ]
     },
     {
@@ -42,6 +43,7 @@
           "iconifyClass": "logos-python"
         }
       ],
+      "imagesrc": "../../assests/images/apple-mockup-generator-new.jpg",
       "images": [
         "pwa.png"
       ]
@@ -71,6 +73,7 @@
           "iconifyClass": "logos-javascript"
         }
       ],
+      "imagesrc": "../../assests/images/apple-mockup-generator-new.jpg",
       "images": [
         "pwa.png"
       ]
@@ -105,6 +108,7 @@
           "iconifyClass": "logos-javascript"
         }
       ],
+      "imagesrc": "../../assests/images/apple-mockup-generator-new.jpg",
       "images": [
         "pwa.png"
       ]
@@ -126,6 +130,7 @@
           "iconifyClass": "logos-css-3"
         }
       ],
+      "imagesrc": "../../assests/images/apple-mockup-generator-new.jpg",
       "images": [
         "pwa.png"
       ]

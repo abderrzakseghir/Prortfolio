@@ -75,6 +75,10 @@
   margin-top: 60px;
 }
 
+.repo-cards-display {
+  flex: 1 1 25%;
+}
+
 @media (max-width: 1380px) {
   .projects-heading-text {
     font-size: 50px;
