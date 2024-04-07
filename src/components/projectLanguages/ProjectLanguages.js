@@ -5,7 +5,9 @@ import { OverlayTrigger, Tooltip } from "react-bootstrap";
 class ProjectLanguages extends Component {
   render() {
     return (
-      <div>
+      <div style={{
+        flexGrow: 1,
+      }}>
         <div className="software-skills-main-div">
           <ul className="dev-icons-languages">
             {this.props.logos.map((logo) => {

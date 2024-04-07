@@ -77,6 +77,9 @@
 
 .repo-details {
   display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
   flex-direction: row;
 }
 
@@ -92,10 +95,13 @@
   margin-left: auto;
   margin-right: 0px;
 }
+
 .repo-image {
   padding-top: 10px;
-  height: 40%;
+  object-fit: cover;
+  height: 100%;
   width: 100%;
+  border-radius: 12px;
 }
 
 @media (max-width: 1200px) {

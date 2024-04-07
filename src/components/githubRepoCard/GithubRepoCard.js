@@ -2,7 +2,6 @@ import React, { useState } from "react"; // Import useState
 import ProjectLanguages from "../../components/projectLanguages/ProjectLanguages";
 import "./GithubRepoCard.css";
 import { Fade } from "react-reveal";
-import Carousel from "./Carousel"; // Assurez-vous de spécifier le chemin correct vers le composant Carousel
 import imagenbr1 from "../../assests/images/apple-mockup-generator-new.jpg";
 
 export default function GithubRepoCard({ repo, theme }) {
@@ -12,10 +11,20 @@ export default function GithubRepoCard({ repo, theme }) {
   };
 
   return (
-    <div className="repo-card-div" style={{ backgroundColor: theme.highlight }}>
+    <div
+      className="repo-card-div"
+      style={{ backgroundColor: theme.highlight, height: "100%", borderRadius: "12px"}}
+    >
       <Fade bottom duration={2000} distance="40px">
-        <div onClick={toggleOverlay}>
-          <div className="repo-name-div">
+        <div
+          onClick={toggleOverlay}
+          style={{
+            height: "100%",
+            display: "flex",
+            flexDirection: "column",
+          }}
+        >
+          <div className="repo-name-div" style={{ flexShrink: 0 }}>
             <svg
               aria-hidden="true"
               className="octicon repo-svg"
@@ -33,13 +42,17 @@ export default function GithubRepoCard({ repo, theme }) {
               {repo.name}
             </p>
           </div>
-          <p className="repo-description" style={{ color: theme.text }}>
+          <p
+            className="repo-description"
+            style={{ color: theme.text, flexShrink: 0 }}
+          >
             {repo.description}
           </p>
           <div className="repo-details">
             <p
               className="repo-creation-date subTitle"
-              style={{ color: theme.secondaryText }}
+
+              style={{ color: theme.secondaryText, textAlign: "left"}}
             >
               Created on {repo.createdAt.split("T")[0]}
             </p>
@@ -50,20 +63,14 @@ export default function GithubRepoCard({ repo, theme }) {
           </div>
           <div className="repo-image">
             <img
-              src={repo.Imagesrc ? repo.Imagesrc : imagenbr1}
+
+              src={repo.imagesrc ? repo.imagesrc : imagenbr1}
               alt={`Image for ${repo.name}`}
               className="repo-image"
             />
           </div>
         </div>
       </Fade>
-      {/* {showOverlay && (
-        <div className="overlay" onClick={toggleOverlay}>
-          <div className="overlay-content" onClick={(e) => e.stopPropagation()}>
-            <Carousel images={repo.images} />
-          </div>
-        </div>
-      )} */}
     </div>
   );
 }

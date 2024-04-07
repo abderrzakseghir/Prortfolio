@@ -17,6 +17,7 @@ import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 import ProjectDetails from "../../components/ProjectDetails/ProjectDetails.js";
 
+
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -44,10 +45,6 @@ class Projects extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
-                {/* <img
-											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
-											alt=""
-										/> */}
                 <ProjectsImg theme={theme} />
               </div>
               <div className="projects-heading-text-div">
@@ -72,6 +69,9 @@ class Projects extends Component {
             <div
               key={index}
               onClick={() => this.openModal(repo)}
+              style={{
+                minWidth: "300px",
+              }}
               className="repo-cards-display"
             >
               <GithubRepoCard repo={repo} theme={theme} />

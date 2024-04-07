@@ -59,3 +59,64 @@
       transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
   }
 }
+
+
+/* src/Carousel.css */
+.carousel {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.carousel__btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  z-index: 1;
+  transition: background-color 0.3s;
+}
+
+@media screen and (max-width: 600px){
+  .carousel__btn {
+    display: none;
+  }
+}
+
+.carousel__btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.carousel__btn--prev {
+  left: 0;
+}
+.carousel__btn--next {
+  right: 0;
+}
+.carousel__img {
+  width: 100%;
+  border-radius: 12px;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 600px){
+  .carousel__img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px){
+  .images_list {
+    display: none !important;
+  }
+  
+}
+
+.carousel__img:hover {
+  transform: scale(1.05);
+}
