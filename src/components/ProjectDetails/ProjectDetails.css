@@ -18,6 +18,13 @@
   width: 80%;
 }
 
+@media screen and (max-width: 600px) {
+  .modal-content {
+    width: 100%;
+  }
+  
+}
+
 .close-button {
   color: #aaaaaa;
   float: right;

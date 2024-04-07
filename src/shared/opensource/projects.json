@@ -25,9 +25,11 @@
           "iconifyClass": "simple-icons:docker"
         }
       ],
-      "imagesrc": "../../assests/images/apple-mockup-generator-new.jpg",
+      "imagesrc": "/projects/Prigra/main.jpg",
       "images": [
-        "../../assests/images/apple-mockup-generator-new.jpg"
+        "/projects/Prigra/1.jpg",
+        "/projects/Prigra/2.jpg",
+        "/projects/Prigra/3.jpg"
       ]
     },
     {
@@ -43,9 +45,11 @@
           "iconifyClass": "logos-python"
         }
       ],
-      "imagesrc": "../../assests/images/apple-mockup-generator-new.jpg",
+      "imagesrc": "/projects/Jarvis/main.jpg",
       "images": [
-        "pwa.png"
+        "/projects/Jarvis/1.jpg",
+        "/projects/Jarvis/2.jpg",
+        "/projects/Jarvis/3.jpg"
       ]
     },
     {
@@ -73,9 +77,11 @@
           "iconifyClass": "logos-javascript"
         }
       ],
-      "imagesrc": "../../assests/images/apple-mockup-generator-new.jpg",
+      "imagesrc": "/projects/Esiway/main.jpg",
       "images": [
-        "pwa.png"
+        "/projects/Esiway/1.jpg",
+        "/projects/Esiway/2.jpg",
+        "/projects/Esiway/3.jpg"
       ]
     },
     {
@@ -91,8 +97,11 @@
           "iconifyClass": "logos-python"
         }
       ],
+      "imagesrc": "/projects/neuro-symbolic-sudoku-solver/main.jpg",
       "images": [
-        "pwa.png"
+        "/projects/neuro-symbolic-sudoku-solver/1.jpg",
+        "/projects/neuro-symbolic-sudoku-solver/2.jpg",
+        "/projects/neuro-symbolic-sudoku-solver/3.jpg"
       ]
     },
     {
@@ -108,9 +117,11 @@
           "iconifyClass": "logos-javascript"
         }
       ],
-      "imagesrc": "../../assests/images/apple-mockup-generator-new.jpg",
+      "imagesrc": "/projects/react-awesome-loaders/main.jpg",
       "images": [
-        "pwa.png"
+        "/projects/react-awesome-loaders/1.jpg",
+        "/projects/react-awesome-loaders/2.jpg",
+        "/projects/react-awesome-loaders/3.jpg"
       ]
     },
     {
@@ -130,9 +141,11 @@
           "iconifyClass": "logos-css-3"
         }
       ],
-      "imagesrc": "../../assests/images/apple-mockup-generator-new.jpg",
+      "imagesrc": "/projects/react-liquidswipe/main.jpg",
       "images": [
-        "pwa.png"
+        "/projects/react-liquidswipe/1.jpg",
+        "/projects/react-liquidswipe/2.jpg",
+        "/projects/react-liquidswipe/3.jpg"
       ]
     }
   ]
