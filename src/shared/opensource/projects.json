@@ -3,11 +3,16 @@
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Prigra",
-      "createdAt": "2020-03-06T16:26:54Z",
+      "createdAt": "2023-05-06T16:26:54Z",
       "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      "description": "🔥 Prigra is a web and mobile platform designed to track and manage projects of the form 'Diploma-Stratup/Diploma-Patent' following the guidelines of the Ministry of Higher Education and Scientific Research (Ministerial Order 1275). Key features: • Project submission capability for students. • Tracking and scheduling of project presentations by the establishment's internship service. • Projects validation by the establishment's incubator. • Effective collaboration tools between project holders and supervisors. • Availability of project evaluations and deliberations on the platform. • Push notification service through the mobile app.",
       "isFork": true,
       "languages": [
+        
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
         {
           "name": "HTML",
           "iconifyClass": "logos-html-5"
@@ -21,131 +26,181 @@
           "iconifyClass": "logos-javascript"
         },
         {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
+          "name": "React",
+          "iconifyClass": "simple-icons:react"
+        },
+        {
+          "name": "Flutter",
+          "iconifyClass": "simple-icons:flutter"
         }
+
       ],
-      "imagesrc": "/projects/Prigra/main.jpg",
+      "imagesrc": "/projects/Prigra/prigra.png",
       "images": [
-        "/projects/Prigra/1.jpg",
-        "/projects/Prigra/2.jpg",
-        "/projects/Prigra/3.jpg"
+        "/projects/Prigra/prigra_frame_1.svg",
+        "/projects/Prigra/prigra_frame_2.svg",
+        "/projects/Prigra/prigra_frame3.svg",
+        "/projects/Prigra/prigra_frame4.svg",
+        "/projects/Prigra/prigra_frame5.svg",
+        "/projects/Prigra/prigra_frame6.svg",
+        "/projects/Prigra/prigra_frame7.svg",
+        "/projects/Prigra/prigra_frame8.svg"
+
       ]
     },
     {
       "id": "R_kgDOG_vYHA",
       "name": "Jarvis",
-      "createdAt": "2022-03-13T20:41:33Z",
+      "createdAt": "2022-12-31T20:41:33Z",
       "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
+      "description": "📦 Jarvis, a forward-thinking tech startup, empowers users to achieve their project goals within set timeframes by addressing common hurdles like motivation, overthinking, and time management. We achieve this through user behavior tracking and a sophisticated NLP model with reinforcement learning, tailoring individualized work plans. The platform offers roadmap visualization, fosters a collaborative user community, facilitates project management, provides data-driven insights, and employs push notifications to keep users on track. Jarvis is your partner in turning ambitions into successful project outcomes while optimizing your productivity.",
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+        , {
+          "name": "Flutter",
+          "iconifyClass": "simple-icons:flutter"
         }
       ],
-      "imagesrc": "/projects/Jarvis/main.jpg",
+      "imagesrc": "/projects/Jarvis/jarvisproo.png",
       "images": [
-        "/projects/Jarvis/1.jpg",
-        "/projects/Jarvis/2.jpg",
-        "/projects/Jarvis/3.jpg"
+        "/projects/Jarvis/jarvis_1.svg",
+        "/projects/Jarvis/jarvis_fram3.svg",
+        "/projects/Jarvis/jarvis_frame4.svg",
+        "/projects/Jarvis/jarvis_frame5.svg",
+        "/projects/Jarvis/jarvis_frame6.svg",
+        "/projects/Jarvis/jarvis_frame7.svg"
+        
       ]
     },
     {
       "id": "R_kgDOG0_8uQ",
       "name": "Esiway",
-      "createdAt": "2022-02-11T14:50:20Z",
+      "createdAt": "2022-06-11T14:50:20Z",
       "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
+      "description": "Esiway a mobile app using Flutter to simplify school administrative tasks. 🏫 Our goal: streamline processes and make things user-friendly. As part of our collaborative effort, we leveraged Flutter Clean Architecture principales to build a seamless and efficient solution. 💡",
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
+          "name": "Flutter",
+          "iconifyClass": "simple-icons:flutter"
+        } ,
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
+          "name": "Firebase",
+          "iconifyClass": "simple-icons:firebase"
+        },  
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Figma",
+          "iconifyClass": "simple-icons:figma"
         }
       ],
-      "imagesrc": "/projects/Esiway/main.jpg",
+      "imagesrc": "/projects/Esiway/es01.png",
       "images": [
-        "/projects/Esiway/1.jpg",
-        "/projects/Esiway/2.jpg",
-        "/projects/Esiway/3.jpg"
-      ]
+        "/projects/Esiway/EsiWay.png",
+        "/projects/Esiway/es01.png",
+        "/projects/Esiway/es02.png",
+        "/projects/Esiway/es03.png",
+        "/projects/Esiway/es04.png",
+        "/projects/Esiway/es05.png",
+        "/projects/Esiway/es07.png",
+        "/projects/Esiway/es08.png",
+        "/projects/Esiway/es09.png",
+        "/projects/Esiway/es10.png",
+        "/projects/Esiway/es13.png",
+        "/projects/Esiway/es14.png",
+        "/projects/Esiway/es20.png",
+        "/projects/Esiway/es21.jpg",
+
+        "/projects/Esiway/es21.jpg",
+
+        "/projects/Esiway/w1.svg",
+
+        "/projects/Esiway/w2.svg",
+      
+        "/projects/Esiway/w3.svg",
+        
+        "/projects/Esiway/w4.svg",
+        "/projects/Esiway/w5.svg",
+        "/projects/Esiway/w6.svg",
+        "/projects/Esiway/w9.svg",
+
+        "/projects/Esiway/es24.png"
+      ] 
     },
+
     {
       "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
+      "name": "Festival littéraire international",
+      "createdAt": "2024-04-11T17:56:07Z",
       "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
+      "description": "⚙️ This project involves designing a web application for the school board of an international literary festival to facilitate the planning of author interventions in various settings. The application records data of speakers, their works, and languages spoken, allowing management of requests from participating establishments. Features include submission of wishes by establishments, intervention planning considering logistical constraints, and generating statistics for monitoring festival editions. Development entails using PostgreSQL for the database and an appropriate programming language, with a focus on SQL scripts to ensure system functionality.",
       "isFork": false,
       "languages": [
         {
+          "name": "PostgreSQL",
+          "iconifyClass": "simple-icons:postgresql"
+        },
+        {
+          
           "name": "Python",
           "iconifyClass": "logos-python"
         }
       ],
       "imagesrc": "/projects/neuro-symbolic-sudoku-solver/main.jpg",
       "images": [
-        "/projects/neuro-symbolic-sudoku-solver/1.jpg",
+        "/projects/neuro-symbolic-sudoku-solver/1ej1.jpg",
         "/projects/neuro-symbolic-sudoku-solver/2.jpg",
         "/projects/neuro-symbolic-sudoku-solver/3.jpg"
       ]
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjcyMjI5Njk=",
-      "name": "react-awesome-loaders",
-      "createdAt": "2021-01-06T06:36:41Z",
+      "name": "TourismDatabase",
+      "createdAt": "2023-12-22T06:36:41Z",
       "url": "https://github.com/ashutosh1919/react-awesome-loaders",
-      "description": "🚀  High quality, super responsive and completely customisable Loading Animations to insert into your website with single line of code.",
+      "description": "🚀 This project aims to redesign the website of a region to enhance the presentation of available tourist offerings. A database will be created to reference attractions, accommodations, and restaurants, each with specific characteristics such as contact information, hours of operation, photos, and user ratings. Attractions encompass various types of activities with detailed descriptions, accommodations are categorized into several types with comprehensive pricing information, while restaurants are characterized by cuisine type and price category.",
       "isFork": false,
       "languages": [
+        
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "PostgreSQL",
+          "iconifyClass": "simple-icons:postgresql"
         }
       ],
-      "imagesrc": "/projects/react-awesome-loaders/main.jpg",
+      "imagesrc": "/projects/react-awesome-loaders/carbon (16) 1.png",
       "images": [
-        "/projects/react-awesome-loaders/1.jpg",
-        "/projects/react-awesome-loaders/2.jpg",
-        "/projects/react-awesome-loaders/3.jpg"
+        "/projects/react-awesome-loaders/carbon (16).png",
+        "/projects/react-awesome-loaders/carbon 17.png",
+        "/projects/react-awesome-loaders/carbon (17).png"
       ]
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
-      "createdAt": "2021-01-01T08:31:51Z",
+      "name": "Color Addict",
+      "createdAt": "2023-12-20T08:31:51Z",
       "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
+      "description": "🚀 Ce projet Java a consisté à créer une version numérique du jeu de cartes 'Color Addict'. Les joueurs doivent superposer des cartes en respectant les couleurs ou en utilisant des cartes Joker pour changer de couleur. L'implémentation a inclus la gestion des cartes, leur distribution, ainsi qu'une interface graphique pour jouer contre un autre joueur ou contre l'ordinateur avec des niveaux de difficulté ajustables.",
       "isFork": false,
       "languages": [
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
         }
+       
       ],
-      "imagesrc": "/projects/react-liquidswipe/main.jpg",
+      "imagesrc": "/projects/react-liquidswipe/Group 325.png",
       "images": [
-        "/projects/react-liquidswipe/1.jpg",
-        "/projects/react-liquidswipe/2.jpg",
-        "/projects/react-liquidswipe/3.jpg"
+        "/projects/react-liquidswipe/ej1.png",
+        "/projects/react-liquidswipe/ej2.png",
+        "/projects/react-liquidswipe/ej3.png",
+        "/projects/react-liquidswipe/ej4.png",
+        "/projects/react-liquidswipe/ej5.png",
+        "/projects/react-liquidswipe/ej6.png",
+        "/projects/react-liquidswipe/ej7.png",
+        "/projects/react-liquidswipe/ej8.png"     
       ]
     }
   ]

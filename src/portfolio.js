@@ -235,7 +235,7 @@ const skills = {
           style: {
             color: "#FF2BC2",
           },
-        },
+        },  
         {
           skillName: "Figma",
           fontAwesomeClassname: "simple-icons:figma",
@@ -327,10 +327,8 @@ const degrees = {
       alt_name: "Loraine University",
       duration: "2023 - 2024",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
-      ],
+        "⚡ 3ème année Licence MIASHS parcours MIAGE 2023-présent.",
+        ],
       website_link: "https://idmc.univ-lorraine.fr/",
     },
     {
@@ -340,9 +338,10 @@ const degrees = {
       alt_name: "IIITDM Kurnool",
       duration: "2020 - 2023",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ 1ère Année Cycle Supérieur 2022-2023.",
+        "⚡ Concours National d'Accès aux Cycles Supérieurs 2022.",
+        "⚡ 2eme Année Cycle Préparatoire 2021-2022.",
+        "⚡ 1ère Année Cycle Préparatoire 2020-2021. J'ai appris les bases de la programmation avec des connainssances en systeme d'exploitation et aux maths",
       ],
       website_link: "https://www.esi-sba.dz/fr/",
     },
@@ -478,7 +477,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "pict2.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Web, Android, IOS, Cloud, Databases, Conception and Opensource Development.",
   },
@@ -491,7 +490,7 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle: "28 rue Aristide Birand Laxou 54520, France",
-    locality: "Kanodar",
+    locality: "France",
     country: "France",
     region: "Grand Est",
     postalCode: "54520",
