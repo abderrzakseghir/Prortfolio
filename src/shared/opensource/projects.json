@@ -149,11 +149,18 @@
           "iconifyClass": "logos-python"
         }
       ],
-      "imagesrc": "/projects/neuro-symbolic-sudoku-solver/main.jpg",
+      "imagesrc": "/projects/neuro-symbolic-sudoku-solver/ff1.png",
       "images": [
-        "/projects/neuro-symbolic-sudoku-solver/1ej1.jpg",
-        "/projects/neuro-symbolic-sudoku-solver/2.jpg",
-        "/projects/neuro-symbolic-sudoku-solver/3.jpg"
+        "/projects/neuro-symbolic-sudoku-solver/ff1.png",
+        "/projects/neuro-symbolic-sudoku-solver/ff22.png",
+        "/projects/neuro-symbolic-sudoku-solver/ff33.png",
+        "/projects/neuro-symbolic-sudoku-solver/ff44.png",
+        "/projects/neuro-symbolic-sudoku-solver/ff55.png",
+        "/projects/neuro-symbolic-sudoku-solver/ff66.png",
+        "/projects/neuro-symbolic-sudoku-solver/ff77.png",
+        "/projects/neuro-symbolic-sudoku-solver/ff88.png" 
+        
+     
       ]
     },
     {

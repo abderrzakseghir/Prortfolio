@@ -80,7 +80,7 @@ class Contact extends Component {
               </div>
             </div>
           </Fade>
-          <Fade bottom duration={1000} distance="40px">
+          <Fade bottom duration={1000} distance="10px">
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
                 {/* <img

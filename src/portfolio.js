@@ -328,6 +328,8 @@ const degrees = {
       duration: "2023 - 2024",
       descriptions: [
         "⚡ 3ème année Licence MIASHS parcours MIAGE 2023-présent.",
+         
+
         ],
       website_link: "https://idmc.univ-lorraine.fr/",
     },
