@@ -343,7 +343,7 @@ const degrees = {
         "⚡ 1ère Année Cycle Supérieur 2022-2023.",
         "⚡ Concours National d'Accès aux Cycles Supérieurs 2022.",
         "⚡ 2eme Année Cycle Préparatoire 2021-2022.",
-        "⚡ 1ère Année Cycle Préparatoire 2020-2021. J'ai appris les bases de la programmation avec des connainssances en systeme d'exploitation et aux maths",
+        "⚡ 1ère Année Cycle Préparatoire 2020-2021.  ",
       ],
       website_link: "https://www.esi-sba.dz/fr/",
     },
