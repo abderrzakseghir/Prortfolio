@@ -18,9 +18,7 @@ export default class Main extends Component {
             path="/"
             exact
             render={(props) =>
-              settings.isSplash ? (
-                <Splash {...props} theme={this.props.theme} />
-              ) : (
+               (
                 <Home {...props} theme={this.props.theme} />
               )
             }
