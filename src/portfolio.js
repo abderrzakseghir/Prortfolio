@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Abderrazak seghir's Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://seghir-portfolio.vercel.app//",
   },
 };
 
